@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <h1>Form Submission</h1>
+    <p>Form di-render dari <code>GET /api/form</code> dan dikirim ke <code>POST /api/submissions</code>.</p>
+
+    <form id="dynamic-form">
+        <div id="sections">Loading form…</div>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <div id="status"></div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

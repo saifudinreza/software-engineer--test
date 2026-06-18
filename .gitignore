@@ -1,0 +1,32 @@
+# ── Dependencies ───────────────────────────────
+/backend/vendor/
+/frontend/node_modules/
+node_modules/
+
+# ── Build output ───────────────────────────────
+/frontend/dist/
+/backend/public/build/
+/backend/public/hot
+
+# ── Environment / secrets (keep *.env.example) ─
+.env
+.env.backup
+.env.production
+*.local
+
+# ── Generated SQLite database (do NOT commit) ──
+*.sqlite
+*.sqlite-journal
+
+# ── Caches ─────────────────────────────────────
+/backend/.phpunit.result.cache
+/backend/.phpunit.cache/
+
+# ── Logs ───────────────────────────────────────
+*.log
+
+# ── OS / editor ────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
